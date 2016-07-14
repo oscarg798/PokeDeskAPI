@@ -134,6 +134,7 @@
       "name":"Butterfree",
       "attack":45,
       "defense":50,
+      "image":"https://img.pokemondb.net/artwork/butterfree.jpg",
       "type":"bug",
       "moves":[  
          "confusion",
@@ -147,6 +148,7 @@
       "name":"Weedle",
       "attack":35,
       "defense":30,
+      "image":"https://img.pokemondb.net/artwork/weedle.jpg",
       "type":"bug",
       "moves":[  
          "poison sting"
@@ -156,6 +158,7 @@
    {  
       "name":"Pidgey",
       "attack":45,
+      "image":"https://img.pokemondb.net/artwork/pidgey.jpg",
       "defense":40,
       "type":"normal",
       "moves":[  
@@ -169,6 +172,7 @@
       "attack":60,
       "defense":55,
       "type":"normal",
+      "image":"https://img.pokemondb.net/artwork/pidgeotto.jpg",
       "moves":[  
          "tackle",
          "gust",
@@ -181,6 +185,7 @@
       "attack":80,
       "defense":75,
       "type":"normal",
+      "image":"https://img.pokemondb.net/artwork/pidgeot.jpg",
       "moves":[  
          "tackle",
          "gust",
@@ -193,6 +198,7 @@
       "attack":56,
       "defense":35,
       "type":"normal",
+      "image":"https://img.pokemondb.net/artwork/rattata.jpg",
       "moves":[  
          "tackle",
          "hyper fang"
@@ -203,6 +209,7 @@
       "name":"Raticate",
       "attack":81,
       "defense":60,
+      "image":"https://img.pokemondb.net/artwork/raticate.jpg",
       "type":"normal",
       "moves":[  
          "tackle",
@@ -214,6 +221,7 @@
       "name":"Spearow",
       "attack":60,
       "defense":30,
+      "image":"https://img.pokemondb.net/artwork/spearow.jpg",
       "type":"normal",
       "moves":[  
          "peck"
@@ -225,6 +233,7 @@
       "attack":90,
       "defense":65,
       "type":"normal",
+      "image":"https://img.pokemondb.net/artwork/fearow.jpg",
       "moves":[  
          "peck",
          "drill peck"
