@@ -4,8 +4,9 @@
  * @description :: Server-side logic for managing Pokemons
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
+ 'use strict';
 var q = require('q');
-var fs = require('fs');
+const fs = require('fs');
 
 
 

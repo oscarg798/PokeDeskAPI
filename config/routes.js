@@ -37,7 +37,10 @@ module.exports.routes = {
   },
   'GET /pokemon/load': 'PokemonController.load',
   'GET /pokemon/:name':'PokemonController.getByName',
-  'POST /pokemon':'PokemonController.getAll'
+  'POST /pokemon':'PokemonController.getAll',
+  'POST /user':'UserController.signup',
+  'POST /user/logIn':'AuthController.logIn',
+  'POST /verifyToken':'AuthController.verifyToken'
 
   /***************************************************************************
   *                                                                          *

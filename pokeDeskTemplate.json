@@ -1,1542 +1,1464 @@
-[
-  {
+[{
     "name": "Bulbasaur",
     "attack": 49,
     "defense": 49,
     "type": "grass",
     "image": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
     "moves": [
-      "tackle",
-      "vine whip"
+        "tackle",
+        "vine whip"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Ivysaur",
     "attack": 62,
     "defense": 63,
     "type": "grass",
     "image": "https://img.pokemondb.net/artwork/ivysaur.jpg",
     "moves": [
-      "tackle",
-      "vine whip",
-      "razor leaf"
+        "tackle",
+        "vine whip",
+        "razor leaf"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Venusaur",
     "attack": 82,
     "defense": 83,
     "type": "grass",
     "image": "https://img.pokemondb.net/artwork/venusaur.jpg",
     "moves": [
-      "tackle",
-      "vine whip",
-      "razor leaf"
+        "tackle",
+        "vine whip",
+        "razor leaf"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Charmander",
     "attack": 52,
     "defense": 43,
     "type": "fire",
     "image": "https://img.pokemondb.net/artwork/charmander.jpg",
     "moves": [
-      "scratch",
-      "ember",
-      "metal claw"
+        "scratch",
+        "ember",
+        "metal claw"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Charmeleon",
     "attack": 64,
     "defense": 58,
     "type": "fire",
     "image": "https://img.pokemondb.net/artwork/charmeleon.jpg",
     "moves": [
-      "scratch",
-      "ember",
-      "metal claw",
-      "flamethrower"
+        "scratch",
+        "ember",
+        "metal claw",
+        "flamethrower"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Charizard",
     "attack": 84,
     "defense": 78,
     "type": "fire",
     "image": "https://img.pokemondb.net/artwork/charizard.jpg",
     "moves": [
-      "flamethrower",
-      "wing attack",
-      "slash",
-      "metal claw"
+        "flamethrower",
+        "wing attack",
+        "slash",
+        "metal claw"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Squirtle",
     "attack": 48,
     "defense": 65,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/squirtle.jpg",
     "moves": [
-      "tackle",
-      "bubble",
-      "water gun"
+        "tackle",
+        "bubble",
+        "water gun"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Wartortle",
     "attack": 63,
     "defense": 80,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/wartortle.jpg",
     "moves": [
-      "tackle",
-      "bubble",
-      "water gun",
-      "bite"
+        "tackle",
+        "bubble",
+        "water gun",
+        "bite"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Blastoise",
     "attack": 83,
     "defense": 100,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/blastoise.jpg",
     "moves": [
-      "hydro pump",
-      "bubble",
-      "water gun",
-      "bite"
+        "hydro pump",
+        "bubble",
+        "water gun",
+        "bite"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Caterpie",
     "attack": 30,
     "defense": 35,
     "type": "bug",
     "image": "https://img.pokemondb.net/artwork/caterpie.jpg",
     "moves": [
-      "tackle"
+        "tackle"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Butterfree",
     "attack": 45,
     "defense": 50,
     "image": "https://img.pokemondb.net/artwork/butterfree.jpg",
     "type": "bug",
     "moves": [
-      "confusion",
-      "gust",
-      "psybeam",
-      "silver wind"
+        "confusion",
+        "gust",
+        "psybeam",
+        "silver wind"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Weedle",
     "attack": 35,
     "defense": 30,
     "image": "https://img.pokemondb.net/artwork/weedle.jpg",
     "type": "bug",
     "moves": [
-      "poison sting"
+        "poison sting"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Pidgey",
     "attack": 45,
     "image": "https://img.pokemondb.net/artwork/pidgey.jpg",
     "defense": 40,
     "type": "normal",
     "moves": [
-      "tackle",
-      "gust"
+        "tackle",
+        "gust"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Pidgeotto",
     "attack": 60,
     "defense": 55,
     "type": "normal",
     "image": "https://img.pokemondb.net/artwork/pidgeotto.jpg",
     "moves": [
-      "tackle",
-      "gust",
-      "wing attack"
+        "tackle",
+        "gust",
+        "wing attack"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Pidgeot",
     "attack": 80,
     "defense": 75,
     "type": "normal",
     "image": "https://img.pokemondb.net/artwork/pidgeot.jpg",
     "moves": [
-      "tackle",
-      "gust",
-      "wing attack"
+        "tackle",
+        "gust",
+        "wing attack"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Rattata",
     "attack": 56,
     "defense": 35,
     "type": "normal",
     "image": "https://img.pokemondb.net/artwork/rattata.jpg",
     "moves": [
-      "tackle",
-      "hyper fang"
+        "tackle",
+        "hyper fang"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Raticate",
     "attack": 81,
     "defense": 60,
     "image": "https://img.pokemondb.net/artwork/raticate.jpg",
     "type": "normal",
     "moves": [
-      "tackle",
-      "hyper fang"
+        "tackle",
+        "hyper fang"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Spearow",
     "attack": 60,
     "defense": 30,
     "image": "https://img.pokemondb.net/artwork/spearow.jpg",
     "type": "normal",
     "moves": [
-      "peck"
+        "peck"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Fearow",
     "attack": 90,
     "defense": 65,
     "type": "normal",
     "image": "https://img.pokemondb.net/artwork/fearow.jpg",
     "moves": [
-      "peck",
-      "drill peck"
+        "peck",
+        "drill peck"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Ekans",
     "attack": 60,
     "defense": 44,
     "image": "https://img.pokemondb.net/artwork/ekans.jpg",
     "type": "poison",
     "moves": [
-      "poison sting",
-      "bite"
+        "poison sting",
+        "bite"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Arbok",
     "attack": 85,
     "defense": 69,
     "image": "https://img.pokemondb.net/artwork/arbok.jpg",
     "type": "poison",
     "moves": [
-      "poison sting",
-      "bite",
-      "acid"
+        "poison sting",
+        "bite",
+        "acid"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Pikachu",
     "attack": 90,
     "defense": 55,
     "type": "electric",
     "image": "https://img.pokemondb.net/artwork/pikachu.jpg",
     "moves": [
-      "Lightning Rod",
-      "thunderbolt"
+        "Lightning Rod",
+        "thunderbolt"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Raichu",
     "attack": 90,
     "defense": 55,
     "type": "electric",
     "image": "https://img.pokemondb.net/artwork/raichu.jpg",
     "moves": [
-      "thundershock",
-      "thunderbolt"
+        "thundershock",
+        "thunderbolt"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Sandshrew",
     "attack": 75,
     "defense": 85,
     "image": "https://img.pokemondb.net/artwork/sandshrew.jpg",
     "type": "ground",
     "moves": [
-      "scratch",
-      "poison sting"
+        "scratch",
+        "poison sting"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Sandslash",
     "attack": 100,
     "defense": 110,
     "type": "ground",
     "image": "https://img.pokemondb.net/artwork/sandslash.jpg",
     "moves": [
-      "scratch",
-      "poison sting",
-      "slash",
-      "swift"
+        "scratch",
+        "poison sting",
+        "slash",
+        "swift"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Nidoran",
     "attack": 47,
     "defense": 52,
     "type": "poison",
     "image": "https://img.pokemondb.net/artwork/nidoran-f.jpg",
     "moves": [
-      "scratch"
+        "scratch"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Nidoqueen",
     "attack": 82,
     "defense": 87,
     "type": "poison",
     "moves": [
-      "scratch",
-      "poison sting",
-      "body slam",
-      "superpower"
+        "scratch",
+        "poison sting",
+        "body slam",
+        "superpower"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Nidoking",
     "attack": 92,
     "defense": 77,
     "image": "https://img.pokemondb.net/artwork/nidoqueen.jpg",
     "type": "poison",
     "moves": [
-      "peck",
-      "poison sting",
-      "megahorn"
+        "peck",
+        "poison sting",
+        "megahorn"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Ninetales",
     "attack": 76,
     "defense": 75,
     "type": "fire",
     "image": "https://img.pokemondb.net/artwork/ninetales.jpg",
     "moves": [
-      "ember"
+        "ember"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Zubat",
     "attack": 45,
     "defense": 35,
     "type": "poison",
     "imnage": "https://img.pokemondb.net/artwork/zubat.jpg",
     "moves": [
-      "astonish",
-      "bite",
-      "wing attack"
+        "astonish",
+        "bite",
+        "wing attack"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Golbat",
     "attack": 80,
     "defense": 70,
     "type": "poison",
     "image": "https://img.pokemondb.net/artwork/golbat.jpg",
     "moves": [
-      "poison fang",
-      "bite",
-      "wing attack",
-      "air cutter"
+        "poison fang",
+        "bite",
+        "wing attack",
+        "air cutter"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Paras",
     "attack": 70,
     "defense": 55,
     "type": "bug",
     "image": "https://img.pokemondb.net/artwork/paras.jpg",
     "moves": [
-      "scratch"
+        "scratch"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Parasect",
     "attack": 95,
     "defense": 80,
     "image": "https://img.pokemondb.net/artwork/parasect.jpg",
     "type": "bug",
     "moves": [
-      "scratch",
-      "slash"
+        "scratch",
+        "slash"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Venonat",
     "attack": 55,
     "defense": 50,
     "image": "https://img.pokemondb.net/artwork/venonat.jpg",
     "type": "bug",
     "moves": [
-      "tackle",
-      "confusion"
+        "tackle",
+        "confusion"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Venomoth",
     "attack": 65,
     "defense": 60,
     "type": "bug",
     "image": "https://img.pokemondb.net/artwork/venomoth.jpg",
     "moves": [
-      "psybeam",
-      "psychic",
-      "confusion",
-      "gust"
+        "psybeam",
+        "psychic",
+        "confusion",
+        "gust"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Diglett",
     "attack": 55,
     "defense": 25,
     "type": "ground",
     "image": "https://img.pokemondb.net/artwork/diglett.jpg",
     "moves": [
-      "scratch"
+        "scratch"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Dugtrio",
     "attack": 80,
     "defense": 50,
     "type": "ground",
     "image": "https://img.pokemondb.net/artwork/dugtrio.jpg",
     "moves": [
-      "scratch",
-      "slash",
-      "earthquake"
+        "scratch",
+        "slash",
+        "earthquake"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Meowth",
     "attack": 45,
     "defense": 35,
     "type": "normal",
     "image": "https://img.pokemondb.net/artwork/meowth.jpg",
     "moves": [
-      "scratch",
-      "bite"
+        "scratch",
+        "bite"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Persian",
     "attack": 70,
     "defense": 60,
     "image": "https://img.pokemondb.net/artwork/persian.jpg",
     "type": "normal",
     "moves": [
-      "scratch",
-      "bite",
-      "slash"
+        "scratch",
+        "bite",
+        "slash"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Psyduck",
     "attack": 52,
     "defense": 48,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/psyduck.jpg",
     "moves": [
-      "scratch",
-      "confusion"
+        "scratch",
+        "confusion"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Golduck",
     "attack": 82,
     "defense": 78,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/golduck.jpg",
     "moves": [
-      "scratch",
-      "confusion",
-      "hydro pump"
+        "scratch",
+        "confusion",
+        "hydro pump"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Mankey",
     "attack": 80,
     "defense": 35,
     "image": "https://img.pokemondb.net/artwork/mankey.jpg",
     "type": "fighting",
     "moves": [
-      "scratch",
-      "low kick",
-      "karate chop"
+        "scratch",
+        "low kick",
+        "karate chop"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Primeape",
     "attack": 105,
     "defense": 60,
     "image": "https://img.pokemondb.net/artwork/primeape.jpg",
     "type": "fighting",
     "moves": [
-      "scratch",
-      "low kick",
-      "karate chop",
-      "cross chop"
+        "scratch",
+        "low kick",
+        "karate chop",
+        "cross chop"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Arcanine",
     "attack": 110,
     "defense": 80,
     "type": "fire",
     "image": "https://img.pokemondb.net/artwork/arcanine.jpg",
     "moves": [
-      "bite",
-      "ember"
+        "bite",
+        "ember"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Poliwag",
     "attack": 50,
     "defense": 40,
     "image": "https://img.pokemondb.net/artwork/poliwag.jpg",
     "type": "water",
     "moves": [
-      "bubble",
-      "water gun"
+        "bubble",
+        "water gun"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Poliwrath",
     "attack": 85,
     "defense": 95,
     "image": "https://img.pokemondb.net/artwork/poliwrath.jpg",
     "type": "water",
     "moves": [
-      "water gun"
+        "water gun"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Alakazam",
     "attack": 50,
     "defense": 45,
     "type": "psychic",
     "image": "https://img.pokemondb.net/artwork/alakazam.jpg",
     "moves": [
-      "confusion",
-      "psybeam",
-      "psychic"
+        "confusion",
+        "psybeam",
+        "psychic"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Machop",
     "attack": 80,
     "defense": 50,
     "image": "https://img.pokemondb.net/artwork/machop.jpg",
     "type": "fighting",
     "moves": [
-      "low kick",
-      "karate chop"
+        "low kick",
+        "karate chop"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Machamp",
     "attack": 130,
     "defense": 80,
     "type": "fighting",
     "image": "https://img.pokemondb.net/artwork/machamp.jpg",
     "moves": [
-      "low kick",
-      "karate chop",
-      "cross chop",
-      "dynamicpunch"
+        "low kick",
+        "karate chop",
+        "cross chop",
+        "dynamicpunch"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Bellsprout",
     "attack": 75,
     "defense": 35,
     "type": "grass",
     "image": "https://img.pokemondb.net/artwork/bellsprout.jpg",
     "moves": [
-      "vine whip"
+        "vine whip"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Victreebel",
     "attack": 105,
     "defense": 65,
     "image": "https://img.pokemondb.net/artwork/victreebel.jpg",
     "type": "grass",
     "moves": [
-      "vine whip",
-      "razor leaf"
+        "vine whip",
+        "razor leaf"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Tentacool",
     "attack": 40,
     "defense": 35,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/tentacool.jpg",
     "moves": [
-      "poison sting",
-      "constrict",
-      "acid",
-      "bubblebeam"
+        "poison sting",
+        "constrict",
+        "acid",
+        "bubblebeam"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Tentacruel",
     "attack": 70,
     "defense": 65,
     "image": "https://img.pokemondb.net/artwork/tentacruel.jpg",
     "type": "water",
     "moves": [
-      "hydro pump",
-      "constrict",
-      "acid",
-      "bubblebeam"
+        "hydro pump",
+        "constrict",
+        "acid",
+        "bubblebeam"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Geodude",
     "attack": 80,
     "defense": 100,
     "type": "rock",
     "image": "https://img.pokemondb.net/artwork/geodude.jpg",
     "moves": [
-      "tackle",
-      "rock throw"
+        "tackle",
+        "rock throw"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Golem",
     "attack": 110,
     "defense": 130,
     "type": "rock",
     "image": "https://img.pokemondb.net/artwork/golem.jpg",
     "moves": [
-      "tackle",
-      "rock throw",
-      "earthquake"
+        "tackle",
+        "rock throw",
+        "earthquake"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Ponyta",
     "attack": 85,
     "defense": 55,
     "type": "fire",
     "image": "https://img.pokemondb.net/artwork/ponyta.jpg",
     "moves": [
-      "ember",
-      "stomp"
+        "ember",
+        "stomp"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Rapidash",
     "attack": 100,
     "defense": 70,
     "type": "fire",
     "image": "https://img.pokemondb.net/artwork/rapidash.jpg",
     "moves": [
-      "ember",
-      "stomp",
-      "fire blast"
+        "ember",
+        "stomp",
+        "fire blast"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Slowpoke",
     "attack": 65,
     "defense": 65,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/slowpoke.jpg",
     "moves": [
-      "tackle",
-      "water gun",
-      "confusion",
-      "headbutt"
+        "tackle",
+        "water gun",
+        "confusion",
+        "headbutt"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Slowbro",
     "attack": 75,
     "defense": 110,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/slowbro.jpg",
     "moves": [
-      "psychic",
-      "water gun",
-      "confusion",
-      "headbutt"
+        "psychic",
+        "water gun",
+        "confusion",
+        "headbutt"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Magnemite",
     "attack": 35,
     "defense": 70,
     "type": "electric",
     "image": "https://img.pokemondb.net/artwork/magnemite.jpg",
     "moves": [
-      "tackle",
-      "thundershock",
-      "spark"
+        "tackle",
+        "thundershock",
+        "spark"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Magneton",
     "attack": 60,
     "image": "https://img.pokemondb.net/artwork/magneton.jpg",
     "defense": 95,
     "type": "electric",
     "moves": [
-      "tackle",
-      "thundershock",
-      "spark",
-      "zap cannon"
+        "tackle",
+        "thundershock",
+        "spark",
+        "zap cannon"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Farfetch'd",
     "attack": 65,
     "defense": 55,
     "image": "https://img.pokemondb.net/artwork/farfetchd.jpg",
     "type": "normal",
     "moves": [
-      "peck",
-      "slash"
+        "peck",
+        "slash"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Doduo",
     "attack": 85,
     "defense": 45,
     "image": "https://img.pokemondb.net/artwork/doduo.jpg",
     "type": "normal",
     "moves": [
-      "peck"
+        "peck"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Dodrio",
     "attack": 110,
     "defense": 70,
     "type": "normal",
     "image": "https://img.pokemondb.net/artwork/dodrio.jpg",
     "moves": [
-      "peck",
-      "drill peck"
+        "peck",
+        "drill peck"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Seel",
     "attack": 45,
     "defense": 55,
     "image": "https://img.pokemondb.net/artwork/seel.jpg",
     "type": "water",
     "moves": [
-      "headbutt",
-      "icy wind",
-      "aurora beam"
+        "headbutt",
+        "icy wind",
+        "aurora beam"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Dewgong",
     "attack": 70,
     "defense": 80,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/dewgong.jpg",
     "moves": [
-      "ice beam",
-      "headbutt",
-      "icy wind",
-      "aurora beam"
+        "ice beam",
+        "headbutt",
+        "icy wind",
+        "aurora beam"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Grimer",
     "attack": 80,
     "defense": 50,
     "image": "https://img.pokemondb.net/artwork/grimer.jpg",
     "type": "poison",
     "moves": [
-      "pound",
-      "sludge"
+        "pound",
+        "sludge"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Muk",
     "attack": 105,
     "defense": 75,
     "image": "https://img.pokemondb.net/artwork/muk.jpg",
     "type": "poison",
     "moves": [
-      "pound",
-      "sludge",
-      "sludge bomb"
+        "pound",
+        "sludge",
+        "sludge bomb"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Cloyster",
     "attack": 95,
     "image": "https://img.pokemondb.net/artwork/cloyster.jpg",
     "defense": 180,
     "type": "water",
     "moves": [
-      "aurora beam"
+        "aurora beam"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Gastly",
     "attack": 35,
     "defense": 30,
     "type": "ghost",
     "image": "https://img.pokemondb.net/artwork/gastly.jpg",
     "moves": [
-      "tackle",
-      "lick"
+        "tackle",
+        "lick"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Gengar",
     "attack": 65,
     "defense": 60,
     "image": "https://img.pokemondb.net/artwork/gengar.jpg",
     "type": "ghost",
     "moves": [
-      "tackle",
-      "lick",
-      "shadow punch",
-      "shadow ball"
+        "tackle",
+        "lick",
+        "shadow punch",
+        "shadow ball"
     ],
     "curve": 1.3
-  },
-  {
+}, {
     "name": "Onix",
     "attack": 45,
     "defense": 160,
     "type": "rock",
     "image": "https://img.pokemondb.net/artwork/onix.jpg",
     "moves": [
-      "iron tail",
-      "rock throw",
-      "dragonbreath",
-      "slam"
+        "iron tail",
+        "rock throw",
+        "dragonbreath",
+        "slam"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Drowzee",
     "attack": 48,
     "defense": 45,
     "type": "psychic",
     "image": "https://img.pokemondb.net/artwork/drowzee.jpg",
     "moves": [
-      "pound",
-      "confusion",
-      "headbutt"
+        "pound",
+        "confusion",
+        "headbutt"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Hypno",
     "attack": 73,
     "defense": 70,
     "type": "psychic",
     "image": "https://img.pokemondb.net/artwork/hypno.jpg",
     "moves": [
-      "pound",
-      "confusion",
-      "headbutt",
-      "psychic"
+        "pound",
+        "confusion",
+        "headbutt",
+        "psychic"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Krabby",
     "attack": 105,
     "defense": 90,
     "type": "water",
     "image": "https://img.pokemondb.net/artwork/krabby.jpg",
     "moves": [
-      "bubble",
-      "vicegrip",
-      "mud shot",
-      "stomp"
+        "bubble",
+        "vicegrip",
+        "mud shot",
+        "stomp"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Kingler",
     "attack": 130,
     "defense": 115,
     "image": "https://img.pokemondb.net/artwork/kingler.jpg",
     "type": "water",
     "moves": [
-      "stomp",
-      "crabhammer",
-      "vicegrip",
-      "mud shot"
+        "stomp",
+        "crabhammer",
+        "vicegrip",
+        "mud shot"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Voltorb",
     "attack": 30,
     "defense": 50,
     "image": "https://img.pokemondb.net/artwork/voltorb.jpg",
     "type": "electric",
     "moves": [
-      "tackle",
-      "spark"
+        "tackle",
+        "spark"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Electrode",
     "attack": 50,
     "defense": 70,
     "type": "electric",
+    "image": "https://img.pokemondb.net/artwork/electrode.jpg",
     "moves": [
-      "tackle",
-      "spark",
-      "swift"
+        "tackle",
+        "spark",
+        "swift"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Exeggutor",
     "attack": 95,
     "defense": 85,
     "type": "grass",
+    "image": "https://img.pokemondb.net/artwork/exeggutor.jpg",
     "moves": [
-      "confusion",
-      "stomp",
-      "egg bomb"
+        "confusion",
+        "stomp",
+        "egg bomb"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Cubone",
     "attack": 50,
     "defense": 95,
+    "image": "https://img.pokemondb.net/artwork/cubone.jpg",
     "type": "ground",
     "moves": [
-      "bone club",
-      "headbutt"
+        "bone club",
+        "headbutt"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Marowak",
     "attack": 80,
     "defense": 110,
     "type": "ground",
+    "image": "https://img.pokemondb.net/artwork/marowak.jpg",
     "moves": [
-      "bone club",
-      "headbutt"
+        "bone club",
+        "headbutt"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Hitmonlee",
     "attack": 120,
     "defense": 53,
     "type": "fighting",
+    "image": "https://img.pokemondb.net/artwork/hitmonlee.jpg",
     "moves": [
-      "rolling kick"
+        "rolling kick"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Hitmonchan",
     "attack": 105,
     "defense": 79,
     "type": "fighting",
+    "image": "https://img.pokemondb.net/artwork/hitmonchan.jpg",
     "moves": [
-      "mega punch",
-      "ice punch",
-      "fire punch",
-      "sky uppercut"
+        "mega punch",
+        "ice punch",
+        "fire punch",
+        "sky uppercut"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Lickitung",
     "attack": 55,
     "defense": 75,
     "type": "normal",
+    "image": "https://img.pokemondb.net/artwork/lickitung.jpg",
     "moves": [
-      "lick",
-      "stomp",
-      "slam"
+        "lick",
+        "stomp",
+        "slam"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Koffing",
     "attack": 65,
     "defense": 95,
     "type": "poison",
+    "image": "https://img.pokemondb.net/artwork/koffing.jpg",
     "moves": [
-      "tackle",
-      "smog",
-      "sludge"
+        "tackle",
+        "smog",
+        "sludge"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Weezing",
     "attack": 90,
     "defense": 120,
     "type": "poison",
+    "image": "https://img.pokemondb.net/artwork/weezing.jpg",
     "moves": [
-      "tackle",
-      "smog",
-      "sludge"
+        "tackle",
+        "smog",
+        "sludge"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Rhyhorn",
     "attack": 85,
     "defense": 95,
     "type": "ground",
+    "image": "https://img.pokemondb.net/artwork/rhyhorn.jpg",
     "moves": [
-      "horn attack",
-      "stomp"
+        "horn attack",
+        "stomp"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Rhydon",
     "attack": 130,
     "defense": 120,
     "type": "ground",
+    "image": "https://img.pokemondb.net/artwork/rhydon.jpg",
     "moves": [
-      "horn attack",
-      "stomp",
-      "earthquake",
-      "megahorn"
+        "horn attack",
+        "stomp",
+        "earthquake",
+        "megahorn"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Chansey",
     "attack": 5,
     "defense": 5,
     "type": "normal",
+    "image": "https://img.pokemondb.net/artwork/chansey.jpg",
     "moves": [
-      "pound",
-      "egg bomb"
+        "pound",
+        "egg bomb"
     ],
     "curve": 1.9
-  },
-  {
+}, {
     "name": "Tangela",
     "attack": 55,
     "defense": 115,
     "type": "grass",
+    "image": "https://img.pokemondb.net/artwork/tangela.jpg",
     "moves": [
-      "constrict",
-      "vine whip",
-      "slam"
+        "constrict",
+        "vine whip",
+        "slam"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Kangaskhan",
     "attack": 95,
     "defense": 80,
     "type": "normal",
+    "image": "https://img.pokemondb.net/artwork/kangaskhan.jpg",
     "moves": [
-      "bite",
-      "mega punch",
-      "dizzy punch"
+        "bite",
+        "mega punch",
+        "dizzy punch"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Horsea",
     "attack": 40,
     "defense": 70,
     "type": "water",
+    "image": "https://img.pokemondb.net/artwork/horsea.jpg",
     "moves": [
-      "bubble",
-      "water gun",
-      "twister"
+        "bubble",
+        "water gun",
+        "twister"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Seadra",
     "attack": 65,
     "defense": 95,
     "type": "water",
+    "image": "https://img.pokemondb.net/artwork/seadra.jpg",
     "moves": [
-      "bubble",
-      "water gun",
-      "twister",
-      "hydro pump"
+        "bubble",
+        "water gun",
+        "twister",
+        "hydro pump"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Goldeen",
     "attack": 67,
     "defense": 60,
     "type": "water",
+    "image": "https://img.pokemondb.net/artwork/goldeen.jpg",
     "moves": [
-      "peck",
-      "horn attack"
+        "peck",
+        "horn attack"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Seaking",
     "attack": 92,
     "defense": 65,
     "type": "water",
+    "image": "https://img.pokemondb.net/artwork/seaking.jpg",
     "moves": [
-      "peck",
-      "horn attack",
-      "waterfall",
-      "megahorn"
+        "peck",
+        "horn attack",
+        "waterfall",
+        "megahorn"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Starmie",
     "attack": 75,
     "defense": 85,
     "type": "water",
+    "image": "https://img.pokemondb.net/artwork/starmie.jpg",
     "moves": [
-      "water gun",
-      "swift"
+        "water gun",
+        "swift"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Mr. mime",
     "attack": 45,
     "defense": 65,
     "type": "psychic",
+    "image": "https://img.pokemondb.net/artwork/mr-mime.jpg",
     "moves": [
-      "confusion",
-      "magical leaf",
-      "psybeam",
-      "psychic"
+        "confusion",
+        "magical leaf",
+        "psybeam",
+        "psychic"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Scyther",
     "attack": 110,
     "defense": 80,
     "type": "bug",
+    "image": "https://img.pokemondb.net/artwork/scyther.jpg",
     "moves": [
-      "wing attack",
-      "slash"
+        "wing attack",
+        "slash"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Jynx",
     "attack": 50,
     "defense": 35,
     "type": "ice",
+    "image": "https://img.pokemondb.net/artwork/jynx.jpg",
     "moves": [
-      "body slam",
-      "blizzard",
-      "powder snow",
-      "ice punch"
+        "body slam",
+        "blizzard",
+        "powder snow",
+        "ice punch"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Electabuzz",
     "attack": 83,
     "defense": 57,
     "type": "electric",
+    "image": "https://img.pokemondb.net/artwork/electabuzz.jpg",
     "moves": [
-      "thunderpunch",
-      "swift",
-      "thunderbolt",
-      "thunder"
+        "thunderpunch",
+        "swift",
+        "thunderbolt",
+        "thunder"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Magmar",
     "attack": 95,
     "defense": 57,
     "type": "fire",
+    "image": "https://img.pokemondb.net/artwork/magmar.jpg",
     "moves": [
-      "fire blast",
-      "smog",
-      "fire punch",
-      "flamethrower"
+        "fire blast",
+        "smog",
+        "fire punch",
+        "flamethrower"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Pinsir",
     "attack": 125,
     "defense": 100,
+    "image": "https://img.pokemondb.net/artwork/pinsir.jpg",
     "type": "bug",
     "moves": [
-      "vicegrip"
+        "vicegrip"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Tauros",
     "attack": 100,
     "defense": 95,
     "type": "normal",
+    "image": "https://img.pokemondb.net/artwork/tauros.jpg",
     "moves": [
-      "tackle",
-      "horn attack"
+        "tackle",
+        "horn attack"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Magikarp",
     "attack": 10,
     "defense": 55,
     "type": "water",
+    "image": "https://img.pokemondb.net/artwork/magikarp.jpg",
     "moves": [
-      "tackle"
+        "tackle"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Gyarados",
     "attack": 125,
     "defense": 79,
     "type": "water",
+    "image": "https://img.pokemondb.net/artwork/gyarados.jpg",
     "moves": [
-      "bite",
-      "twister",
-      "hydro pump"
+        "bite",
+        "twister",
+        "hydro pump"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Lapras",
     "attack": 85,
     "defense": 80,
+    "image": "https://img.pokemondb.net/artwork/lapras.jpg",
     "type": "water",
     "moves": [
-      "water gun",
-      "body slam",
-      "ice beam",
-      "hydro pump"
+        "water gun",
+        "body slam",
+        "ice beam",
+        "hydro pump"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Eevee",
     "attack": 55,
     "defense": 50,
     "type": "normal",
+    "image": "https://img.pokemondb.net/artwork/eevee.jpg",
     "moves": [
-      "tackle",
-      "bite"
+        "tackle",
+        "bite"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Jolteon",
     "attack": 65,
     "defense": 60,
     "type": "electric",
+    "image": "https://img.pokemondb.net/artwork/jolteon.jpg",
     "moves": [
-      "tackle",
-      "thundershock",
-      "thunder"
+        "tackle",
+        "thundershock",
+        "thunder"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Flareon",
     "attack": 130,
     "defense": 60,
     "type": "fire",
+    "image": "https://img.pokemondb.net/artwork/flareon.jpg",
     "moves": [
-      "flamethrower",
-      "ember",
-      "bite",
-      "smog"
+        "flamethrower",
+        "ember",
+        "bite",
+        "smog"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Porygon",
     "attack": 60,
     "defense": 70,
     "type": "normal",
+    "image": "https://img.pokemondb.net/artwork/porygon.jpg",
     "moves": [
-      "tackle",
-      "psybeam",
-      "zap cannon"
+        "tackle",
+        "psybeam",
+        "zap cannon"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Omanyte",
     "attack": 40,
     "defense": 100,
     "type": "rock",
+    "image": "https://img.pokemondb.net/artwork/omanyte.jpg",
     "moves": [
-      "constrict",
-      "bite",
-      "water gun",
-      "mud shot"
+        "constrict",
+        "bite",
+        "water gun",
+        "mud shot"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Omastar",
     "attack": 60,
     "defense": 125,
     "type": "rock",
+    "image": "https://img.pokemondb.net/artwork/omastar.jpg",
     "moves": [
-      "ancientpower",
-      "hydro pump",
-      "water gun",
-      "mud shot"
+        "ancientpower",
+        "hydro pump",
+        "water gun",
+        "mud shot"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Kabuto",
     "attack": 80,
     "defense": 90,
     "type": "rock",
+    "image": "https://img.pokemondb.net/artwork/kabuto.jpg",
     "moves": [
-      "scratch",
-      "mud shot"
+        "scratch",
+        "mud shot"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Kabutops",
     "attack": 115,
     "defense": 105,
+    "image": "https://img.pokemondb.net/artwork/kabutops.jpg",
     "type": "rock",
     "moves": [
-      "scratch",
-      "mud shot",
-      "slash",
-      "ancientpower"
+        "scratch",
+        "mud shot",
+        "slash",
+        "ancientpower"
     ],
     "curve": 1.6
-  },
-  {
+}, {
     "name": "Aerodactyl",
     "attack": 105,
     "defense": 65,
     "type": "rock",
+    "image": "https://img.pokemondb.net/artwork/aerodactyl.jpg",
     "moves": [
-      "wing attack",
-      "bite",
-      "ancientpower"
+        "wing attack",
+        "bite",
+        "ancientpower"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Snorlax",
     "attack": 110,
     "defense": 65,
     "type": "normal",
+    "image": "https://img.pokemondb.net/artwork/snorlax.jpg",
     "moves": [
-      "tackle",
-      "headbutt",
-      "snore",
-      "body slam"
+        "tackle",
+        "headbutt",
+        "snore",
+        "body slam"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Articuno",
     "attack": 85,
     "defense": 100,
     "type": "ice",
+    "image": "https://img.pokemondb.net/artwork/articuno.jpg",
     "moves": [
-      "gust",
-      "powder snow",
-      "ice beam",
-      "blizzard"
+        "gust",
+        "powder snow",
+        "ice beam",
+        "blizzard"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Zapdos",
     "attack": 90,
     "defense": 85,
     "type": "electric",
+    "image": "https://img.pokemondb.net/artwork/zapdos.jpg",
     "moves": [
-      "peck",
-      "thundershock",
-      "drill peck",
-      "thunder"
+        "peck",
+        "thundershock",
+        "drill peck",
+        "thunder"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Moltres",
     "attack": 100,
     "defense": 90,
     "type": "fire",
+    "image": "https://img.pokemondb.net/artwork/moltres.jpg",
     "moves": [
-      "wing attack",
-      "ember",
-      "flamethrower",
-      "heat wave"
+        "wing attack",
+        "ember",
+        "flamethrower",
+        "heat wave"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Dratini",
     "attack": 64,
     "defense": 45,
     "type": "dragon",
+    "image": "https://img.pokemondb.net/artwork/dratini.jpg",
     "moves": [
-      "twister",
-      "slam"
+        "twister",
+        "slam"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Dragonair",
     "attack": 84,
     "defense": 65,
     "type": "dragon",
+    "image": "https://img.pokemondb.net/artwork/dragonair.jpg",
     "moves": [
-      "twister",
-      "slam"
+        "twister",
+        "slam"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Dragonite",
     "attack": 134,
     "defense": 95,
     "type": "dragon",
+    "image": "https://img.pokemondb.net/artwork/dragonite.jpg",
     "moves": [
-      "twister",
-      "slam",
-      "wing attack"
+        "twister",
+        "slam",
+        "wing attack"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Mewtwo",
     "attack": 110,
     "defense": 90,
     "type": "psychic",
+    "image": "https://img.pokemondb.net/artwork/mewtwo.jpg",
     "moves": [
-      "confusion",
-      "swift",
-      "psychic"
+        "confusion",
+        "swift",
+        "psychic"
     ],
     "curve": 1
-  },
-  {
+}, {
     "name": "Mew",
     "attack": 100,
     "defense": 100,
     "type": "psychic",
+    "image": "https://img.pokemondb.net/artwork/mew.jpg",
     "moves": [
-      "pound",
-      "mega punch",
-      "psychic",
-      "ancientpower"
+        "pound",
+        "mega punch",
+        "psychic",
+        "ancientpower"
     ],
     "curve": 1.3
-  }
-]
+}]
