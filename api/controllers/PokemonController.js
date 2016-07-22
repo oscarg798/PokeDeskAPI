@@ -103,12 +103,18 @@ function loadPokemons(res) {
         var jsonData = JSON.parse(data);
         for (var i = 0; i < jsonData.length; i++) {
             pokemon = {
+                number:jsonData[i].number || null,
                 name: jsonData[i].name,
                 attacks: jsonData[i].moves,
                 type: jsonData[i].type,
-                image:jsonData[i].image || null
+                image:jsonData[i].image || null,
+                weaknesses: jsonData[i].weaknesses || null,
+                evolutions:jsonData[i].evolutions || null,
+                pre_evolutions:jsonData[i].pre_evolutions || null,
+                height:jsonData[i].height || null,
+                weight:jsonData[i].weight || null,
+
             }
-            console.log(JSON.stringify(pokemon) + '\n\n');
             pokemonList.push(pokemon);
         }
 

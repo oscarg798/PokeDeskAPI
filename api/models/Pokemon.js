@@ -7,23 +7,40 @@
 
 module.exports = {
 
-  attributes: {
+    attributes: {
 
-  		name:{
-  			type:'String',
-  			required:true,
-  			unique:true
-  		},
-  		attacks:{
-  			type:'array'
-  		},
-  		type:{
-  			type:'String',
-  			required:true
-  		},
-  		image:{
-  			type:'String',
-  		}
-  }
+        number: {
+            type: 'String'
+        },
+        name: {
+            type: 'String',
+            required: true,
+            unique: true
+        },
+        attacks: {
+            type: 'array'
+        },
+        type: {
+            type: 'String',
+            required: true
+        },
+        image: {
+            type: 'String',
+        },
+        weaknesses: {
+            type: 'array'
+        },
+        evolutions: {
+            type: 'array'
+        },
+        pre_evolutions: {
+            type: 'array'
+        },
+        height: {
+            type: 'String'
+        },
+        weight: {
+            type: 'String'
+        }
+    }
 };
-
