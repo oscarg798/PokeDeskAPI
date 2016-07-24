@@ -147,17 +147,28 @@ function tryLoadPokemons(req, res) {
 
 }
 
+
 function getNearbyPokemons(req, res) {
     const params = ['lat', 'lng', 'username', 'password'];
     if (!Utils.validateParams(req, params)) {
         return res.json(400, Utils.getErrorPayload('you must send params'));
     }
 
-    sails.log.info('We are going to try to get nearby pokemons');
+    sails.log.info('We are going to  get the address from user lat lng');
 
-    let address = 'Cl. 67 #50-98, Itagüi, Medellín, Antioquia';
-
-    PokemonService.getPokemonsByLocation(req.param('lat'),
-        req.param('lng'), address, req.param('username'),
+    DirectionService.getDirection({
+        lat: req.param('lat'),
+        lng: req.param('lng')
+    })
+    .then(function (response) {
+        PokemonService.getPokemonsByLocation(req.param('lat'),
+        req.param('lng'), response, req.param('username'),
         req.param('password'));
+    })
+    .catch(function (err) {
+        res.json(err);
+    });
+
+
+
 }
