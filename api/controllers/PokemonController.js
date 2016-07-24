@@ -4,17 +4,16 @@
  * @description :: Server-side logic for managing Pokemons
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
- 'use strict';
+'use strict';
 var q = require('q');
+
 const fs = require('fs');
-
-
-
 
 var PokemonController = {
     load: tryLoadPokemons,
     getByName: getByName,
-    getAll:getAll
+    getAll: getAll,
+    getNearbyPokemons:getNearbyPokemons
 };
 
 
@@ -28,7 +27,9 @@ function getByName(req, res) {
         });
     }
 
-    Pokemon.findOne({name:req.param('name')}, function(err, pokemon) {
+    Pokemon.findOne({
+        name: req.param('name')
+    }, function(err, pokemon) {
         if (err) {
             return res.json(500, {
                 status: 'failed',
@@ -36,39 +37,42 @@ function getByName(req, res) {
             });
         }
 
-        if(!pokemon){
-        	return res.json(200,{
-        		status:'failed',
-        		message:'not pokemon founded'
-        	});
+        if (!pokemon) {
+            return res.json(200, {
+                status: 'failed',
+                message: 'not pokemon founded'
+            });
         }
         return res.json(200, {
-        	status:'success',
-        	pokemon:pokemon
+            status: 'success',
+            pokemon: pokemon
         });
     });
 }
 
 function getAll(req, res) {
-	var pagination = req.param('pagination') || 1;
-	var skip = req.param('skip') || 0;
+    var pagination = req.param('pagination') || 1;
+    var skip = req.param('skip') || 0;
 
-	Pokemon.find({}).paginate({page:pagination, limit:skip})
-	.exec(function (err, pokemons) {
-		  if (err) {
-            return res.json(500, {
-                status: 'failed',
-                message: 'Something went wrong. \n' + err
+    Pokemon.find({}).paginate({
+        page: pagination,
+        limit: skip
+    })
+        .exec(function(err, pokemons) {
+            if (err) {
+                return res.json(500, {
+                    status: 'failed',
+                    message: 'Something went wrong. \n' + err
+                });
+            }
+
+            return res.json(200, {
+                status: 'success',
+                page: pagination,
+                limit: skip,
+                pokemon: pokemons
             });
-        }
-
-        return res.json(200, {
-        	status:'success',
-        	page: pagination,
-        	limit:skip,
-        	pokemon:pokemons
-        });
-	})
+        })
 
 }
 
@@ -103,16 +107,16 @@ function loadPokemons(res) {
         var jsonData = JSON.parse(data);
         for (var i = 0; i < jsonData.length; i++) {
             pokemon = {
-                number:jsonData[i].number || null,
+                number: jsonData[i].number || null,
                 name: jsonData[i].name,
                 attacks: jsonData[i].moves,
                 type: jsonData[i].type,
-                image:jsonData[i].image || null,
+                image: jsonData[i].image || null,
                 weaknesses: jsonData[i].weaknesses || null,
-                evolutions:jsonData[i].evolutions || null,
-                pre_evolutions:jsonData[i].pre_evolutions || null,
-                height:jsonData[i].height || null,
-                weight:jsonData[i].weight || null,
+                evolutions: jsonData[i].evolutions ||  null,
+                pre_evolutions: jsonData[i].pre_evolutions || null,
+                height: jsonData[i].height || null,
+                weight: jsonData[i].weight || null,
 
             }
             pokemonList.push(pokemon);
@@ -141,4 +145,19 @@ function tryLoadPokemons(req, res) {
         sails.info.error(err);
     });
 
+}
+
+function getNearbyPokemons(req, res) {
+    const params = ['lat', 'lng', 'username', 'password'];
+    if (!Utils.validateParams(req, params)) {
+        return res.json(400, Utils.getErrorPayload('you must send params'));
+    }
+
+    sails.log.info('We are going to try to get nearby pokemons');
+
+    let address = 'Cl. 67 #50-98, Itagüi, Medellín, Antioquia';
+
+    PokemonService.getPokemonsByLocation(req.param('lat'),
+        req.param('lng'), address, req.param('username'),
+        req.param('password'));
 }

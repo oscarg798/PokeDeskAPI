@@ -65,7 +65,7 @@ function logIn(req, res) {
                 }
 
                 var token = jwt.sign(user, sails.config.Secret.jwtSecret, {
-                    expiresIn: '1m' // 24 hours
+                    expiresIn: '24h'
                 });
 
                 return res.json(200, Utils.getSuccessPayload('token', token));

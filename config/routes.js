@@ -40,7 +40,8 @@ module.exports.routes = {
   'POST /pokemon':'PokemonController.getAll',
   'POST /user':'UserController.signup',
   'POST /user/logIn':'AuthController.logIn',
-  'POST /verifyToken':'AuthController.verifyToken'
+  'POST /verifyToken':'AuthController.verifyToken',
+  'POST /pokemon/getNearbyPokemons': 'PokemonController.getNearbyPokemons'
 
   /***************************************************************************
   *                                                                          *
