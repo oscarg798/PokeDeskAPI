@@ -11,7 +11,45 @@
 
 module.exports.bootstrap = function(cb) {
 
-  // It's very important to trigger this callback method when you are finished
-  // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
-  cb();
+    // It's very important to trigger this callback method when you are finished
+    // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
+    cb();
+
+    sails.registerSockets = {};
+
+    sails.pokemonSearchIntervals = {};
+
+    sails.userLatLng = {};
+
+    sails.io.on('connect', function(socket) {
+        console.log('connection ' + socket.id);
+
+        sails.registerSockets[socket.id] = socket;
+
+        socket.emit('init', {
+            id: socket.id
+        });
+
+        socket.on('disconnect', function() {
+            console.log('socket disconnect!');
+
+            sails.registerSockets[socket.id] = null;
+
+            clearInterval(sails.pokemonSearchIntervals[socket.id]);
+
+            sails.pokemonSearchIntervals[socket.id] = 0;
+
+            sails.userLatLng[socket.id] = null;
+
+
+        });
+
+    });
+
+
+
+
+
+
+
 };
