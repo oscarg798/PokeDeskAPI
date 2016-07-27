@@ -5,7 +5,8 @@ const q = require('q');
 
 var PokemonService = {
     getPokemonsByLocation: getPokemonsByLocation,
-    tryLogIn:tryLogIn
+    tryLogIn: tryLogIn,
+    getPokemonsByLocationWithToken: getPokemonsByLocationWithToken
 };
 
 module.exports = PokemonService;
@@ -14,7 +15,21 @@ module.exports = PokemonService;
 function userAuthenticated(err, account, id) {
     if (err) {
         sails.log.error(new Error(err));
+        if (sails.registerSockets[id]) {
+            sails.registerSockets[id].emit("auth", {
+                status: 'failed',
+                message: 'Something went wrong'
+            });
+            sails.log.info('auth message error sent');
+        }
         return;
+    }
+
+    if (sails.registerSockets[id]) {
+        sails.registerSockets[id].emit("auth", {
+            status: 'success'
+        });
+        sails.log.info('auth message sent');
     }
 
     sails.log.info('1[i] Current location: ' + account.playerInfo.locationName);
@@ -22,7 +37,9 @@ function userAuthenticated(err, account, id) {
     sails.log.info('1[i] lat/long/alt: : ' + account.playerInfo.latitude + ' ' + account.playerInfo.longitude + ' ' + account.playerInfo.altitude);
 
     account.GetProfile(function(err, profile) {
-        if (err) throw err;
+        if (err) {
+            sails.log.error(new Error(err));
+        }
 
         sails.log.info('1[i] Username: ' + profile.username);
         sails.log.info('1[i] Poke Storage: ' + profile.poke_storage);
@@ -98,7 +115,7 @@ function tryLogIn(user, pass) {
 
         if (err) {
             deffered.reject(err);
-        }else{
+        } else {
             deffered.resolve(token);
         }
     });
@@ -106,10 +123,8 @@ function tryLogIn(user, pass) {
     return deffered.promise;
 }
 
-function getPokemonsByLocation(userLat, userLng, address, username, password, id) {
-    var account = new PokemonGO.Pokeio();
-
-
+function setLocation(userLat, userLng, address, id) {
+    // body...
     const location = {
         type: 'name',
         name: address,
@@ -120,12 +135,44 @@ function getPokemonsByLocation(userLat, userLng, address, username, password, id
         }
     };
 
-    let provider = 'google';
-
     sails.userLatLng[id] = {
         lat: userLat,
         lng: userLng
     };
+
+    return location;
+
+}
+
+function getPokemonsByLocationWithToken(userLat, userLng, address, token, id) {
+    var account = new PokemonGO.Pokeio();
+
+    let provider = 'google';
+
+    const location = setLocation(userLat, userLng, address, id);
+
+    sails.log.info('user location ' + id + ' saved as: ' + JSON.stringify(sails.userLatLng[id]));
+
+    account.initWithToken(location, provider, token, function(err) {
+        if (err) {
+            if (sails.registerSockets[id]) {
+                sails.registerSockets[id].emit("Error", {
+                    message: 'Please review your credentials'
+                });
+            }
+        }
+
+        userAuthenticated(err, account, id);
+    });
+
+}
+
+function getPokemonsByLocation(userLat, userLng, address, username, password, id) {
+    var account = new PokemonGO.Pokeio();
+
+    let provider = 'google';
+
+    const location = setLocation(userLat, userLng, address, id);
 
     sails.log.info('user location ' + id + ' saved as: ' + JSON.stringify(sails.userLatLng[id]));
 

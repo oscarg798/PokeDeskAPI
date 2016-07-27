@@ -24,3 +24,4 @@ function verifyToken(token) {
 
 	return deferred.promise;
 }
+

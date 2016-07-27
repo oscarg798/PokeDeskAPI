@@ -15,7 +15,8 @@ var PokemonController = {
     getAll: getAll,
     getNearbyPokemons: getNearbyPokemons,
     updateLatlng: updateLatlng,
-    getAccessToken:getAccessToken
+    getAccessToken:getAccessToken,
+    getNearbyPokemonsWithToken:getNearbyPokemonsWithToken
 };
 
 
@@ -195,9 +196,10 @@ function getAccessToken(req, res) {
     }
 
     PokemonService.tryLogIn(req.param('username'), req.param('password'))
-        .then(function(token) {
+        .then(function(response) {
             res.json(200, {
-                status: 'success'
+                status: 'success',
+                token: response
             });
         }).catch(function(err) {
             res.json(403, {
@@ -208,6 +210,41 @@ function getAccessToken(req, res) {
 
 }
 
+function getNearbyPokemonsWithToken(req, res) {
+    // body...
+     const params = ['lat', 'lng', 'token', 'id'];
+    if (!Utils.validateParams(req, params)) {
+        return res.json(400, Utils.getErrorPayload('you must send params'));
+    }
+
+    console.log(req.param('id'));
+
+    sails.log.info('We are going to  get the address from user lat lng');
+
+    DirectionService.getDirection({
+        lat: req.param('lat'),
+        lng: req.param('lng')
+    })
+        .then(function(response) {
+
+
+            PokemonService.getPokemonsByLocationWithToken(req.param('lat'),
+                req.param('lng'),response, req.param('token'), req.param('id') );
+
+            res.json(200, {
+                status: 'success',
+                message: 'searching'
+            });
+        })
+        .catch(function(err) {
+            sails.log.error(new Error(err));
+            res.json(500, {
+                status: 'failed',
+                message: err
+            });
+        });
+
+}
 function getNearbyPokemons(req, res) {
     const params = ['lat', 'lng', 'username', 'password', 'id'];
     if (!Utils.validateParams(req, params)) {
@@ -223,9 +260,10 @@ function getNearbyPokemons(req, res) {
         lng: req.param('lng')
     })
         .then(function(response) {
+
             PokemonService.getPokemonsByLocation(req.param('lat'),
                 req.param('lng'), response, req.param('username'),
-                req.param('password'), req.param('id'));
+                req.param('password'), req.param('id') );
 
             res.json(200, {
                 status: 'success',
@@ -239,9 +277,5 @@ function getNearbyPokemons(req, res) {
                 message: err
             });
         });
-
-
-
-
 
 }

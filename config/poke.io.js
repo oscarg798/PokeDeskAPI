@@ -173,6 +173,30 @@ function Pokeio() {
         });
     };
 
+    self.initWithToken = function(location, provider, token, callback) {
+        if (provider !== 'ptc' && provider !== 'google') {
+            return callback(new Error('Invalid provider'));
+        }
+        // set provider
+        self.playerInfo.provider = provider;
+        // Updating location
+        self.SetLocation(location, function(err, loc) {
+            if (err) {
+                return callback(err);
+            }
+
+                    // Getting access token
+                self.playerInfo.accessToken = token;
+                self.GetApiEndpoint(function(err, api_endpoint) {
+                    if (err) {
+                        return callback(err);
+                    }
+                    callback(null);
+                });
+          
+        });
+    };
+
     self.GetAccessToken = function(user, pass, callback) {
         self.DebugPrint('[i] Logging with user: ' + user);
 
@@ -184,6 +208,7 @@ function Pokeio() {
             self.playerInfo.accessToken = token;
             self.DebugPrint('[i] Received Google access token!');
             callback(null, token);
+
         });
 
     };
